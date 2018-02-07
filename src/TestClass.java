@@ -4,14 +4,14 @@
 
 */
 
-public class TestClass {
+class TestClass {
 
     // Test fields
-    static int staticField;
-    int intField;
+    private static int staticField;
+    private int intField;
 
     // Object id
-    int id;
+    private int id;
 
     // Constructor
     TestClass() {
